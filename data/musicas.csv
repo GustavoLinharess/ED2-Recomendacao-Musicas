@@ -1,0 +1,201 @@
+id,titulo,artista,genero,descricao
+1,Saudade de Sol,Zé Paulinho,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+2,Lua da Madrugada,Banda Horizonte,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+3,Saudade Escondido,Grupo Harmonia,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+4,Vento Sem Freio,João Martins,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+5,Sol da Madrugada,Renata Lima,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+6,Estrada Escondido,Maria Fernanda,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+7,Vida Escondido,Os Pagodeiros,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+8,Calor na Chuva,Duo Sertanejo,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+9,Chuva Brilhante,Luana Souza,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+10,Amor do Sertão,Bruna Vieira,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+11,Saudade em Salvador,DJ Paulinho,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+12,Flor da Favela,Fernanda Melo,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+13,Coração do Norte,Carlos Eduardo,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+14,Beira em Salvador,Carlos Eduardo,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+15,Vida do Interior,Luana & as Manas,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+16,Paz do Sertão,Fé & Louvor,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+17,Coração da Madrugada,Bruna Vieira,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+18,Noite da Madrugada,Tiago & Marcos,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+19,Beira no Baile,Banda Fortaleza,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+20,Flor Apaixonado,Trio Nordestino,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+21,Sol no Baile,Fé & Louvor,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+22,Vida em Salvador,Fernanda Melo,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+23,Chuva Escondido,Zé Paulinho,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+24,Chuva do Norte,DJ Paulinho,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+25,Vida Escondido,Thiaguinho Jr.,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+26,Rio Sem Freio,Thiaguinho Jr.,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+27,Rio Eterno,Duo Sertanejo,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+28,Sol na Chuva,Luana & as Manas,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+29,Rio do Sertão,Os Românticos,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+30,Beira do Norte,Banda Horizonte,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+31,Amor da Madrugada,Zé Paulinho,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+32,Fé no Baile,Zé Paulinho,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+33,Vento na Chuva,DJ Paulinho,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+34,Lua Perdido,Renata Lima,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+35,Noite Sem Freio,Tiago & Marcos,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+36,Amor Apaixonado,Samba de Raiz,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+37,Vento do Interior,Grupo Harmonia,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+38,Beira do Interior,Banda Fortaleza,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+39,Mar Escondido,Tiago & Marcos,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+40,Tempo de Você,MC Braveza,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+41,Mar de Verão,Lucas & Rafael,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+42,Vento Apaixonado,Banda Fortaleza,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+43,Mar Distante,Bruna Vieira,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+44,Deus de Você,Tiago & Marcos,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+45,Serra Distante,Fernanda Melo,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+46,Amor da Favela,Bruna Vieira,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+47,Fé Distante,Pedrão do Trap,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+48,Sonho de Verão,Voz do Povo,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+49,Saudade da Favela,Luana & as Manas,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+50,Lua Sem Freio,Thiaguinho Jr.,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+51,Noite em Salvador,Zé Paulinho,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+52,Noite Escondido,Bruna Vieira,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+53,Amor Feliz,Carlos Eduardo,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+54,Mar Distante,Tiago & Marcos,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+55,Vento do Sertão,Pedrão do Trap,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+56,Alma do Sertão,Fé & Louvor,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+57,Beira da Favela,Banda Fortaleza,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+58,Calor de Você,Thiaguinho Jr.,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+59,Noite de Verão,João Martins,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+60,Fé da Madrugada,Grupo Axé Brasil,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+61,Estrada em Salvador,Fé & Louvor,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+62,Coração da Madrugada,Grupo Harmonia,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+63,Rio em Salvador,Renata Lima,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+64,Mar Feliz,Maria Fernanda,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+65,Amor na Chuva,Grupo Axé Brasil,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+66,Lua Feliz,Samba de Raiz,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+67,Sol de Você,Lucas & Rafael,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+68,Vento da Favela,Os Pagodeiros,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+69,Calor Sem Freio,MC Braveza,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+70,Vida de Você,Ana Clara,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+71,Rio de Você,Thiaguinho Jr.,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+72,Sol Escondido,Banda Fortaleza,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+73,Vento Apaixonado,Duo Sertanejo,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+74,Lua em Salvador,Banda Fortaleza,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+75,Saudade Sem Freio,Os Românticos,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+76,Estrada em Salvador,Pedrão do Trap,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+77,Chuva Brilhante,Voz do Povo,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+78,Sol Eterno,Luana & as Manas,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+79,Chuva Eterno,João Martins,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+80,Mar do Norte,MC Favela,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+81,Alma Escondido,MC Braveza,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+82,Beijo Perdido,Maria Fernanda,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+83,Sol Sem Freio,Grupo Axé Brasil,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+84,Fé Sem Freio,Zé Paulinho,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+85,Coração Sem Freio,Grupo Axé Brasil,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+86,Deus Distante,Pedro Alves,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+87,Deus em Salvador,Tiago & Marcos,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+88,Noite do Interior,Grupo Harmonia,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+89,Lua Eterno,Lucas & Rafael,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+90,Lua na Chuva,Fernanda Melo,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+91,Sonho em Salvador,Os Pagodeiros,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+92,Paz na Chuva,Renata Lima,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+93,Mar do Sertão,MC Braveza,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+94,Rio da Madrugada,Duo Sertanejo,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+95,Amor da Vida,Banda Fortaleza,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+96,Noite de Sol,Banda Fortaleza,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+97,Paz de Você,Grupo Harmonia,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+98,Sol Distante,Duo Sertanejo,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+99,Flor em Salvador,Luana & as Manas,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+100,Flor da Vida,Pedro Alves,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+101,Fé da Vida,Fernanda Melo,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+102,Deus de Sol,MC Braveza,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+103,Serra de Você,Luana & as Manas,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+104,Mar de Você,Luana & as Manas,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+105,Fé Perdido,Duo Sertanejo,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+106,Sonho do Sertão,Fé & Louvor,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+107,Sol no Baile,Renata Lima,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+108,Mar Sem Freio,Grupo Harmonia,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+109,Vento no Baile,Ana Clara,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+110,Rio Perdido,Os Românticos,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+111,Chuva do Norte,Carlos Eduardo,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+112,Vento Escondido,João Martins,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+113,Noite Perdido,Carlos Eduardo,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+114,Flor na Chuva,Carlos Eduardo,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+115,Vento Perdido,Ana Clara,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+116,Flor Sem Freio,Luana & as Manas,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+117,Sol da Madrugada,MC Braveza,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+118,Flor Escondido,Luana & as Manas,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+119,Sonho Perdido,Pedrão do Trap,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+120,Chuva Apaixonado,Luana & as Manas,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+121,Estrada Apaixonado,Zé Paulinho,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+122,Vento da Madrugada,Duo Sertanejo,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+123,Alma de Você,DJ Paulinho,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+124,Beijo da Madrugada,Maria Fernanda,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+125,Flor da Vida,Banda do Sul,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+126,Lua de Sol,MC Braveza,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+127,Beira de Verão,Duo Sertanejo,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+128,Mar da Favela,Os Românticos,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+129,Beira Escondido,Luana Souza,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+130,Saudade no Baile,Pedro Alves,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+131,Mar Sem Freio,Lucas & Rafael,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+132,Vento da Favela,Zé Paulinho,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+133,Vento do Interior,Renata Lima,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+134,Beira na Chuva,Maria Fernanda,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+135,Coração Brilhante,João Martins,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+136,Fé do Sertão,Trio Nordestino,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+137,Noite de Verão,Fernanda Melo,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+138,Tempo de Você,Zé Paulinho,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+139,Deus da Vida,MC Braveza,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+140,Rio Eterno,Fé & Louvor,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+141,Fé Perdido,Maria Fernanda,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+142,Tempo Eterno,MC Braveza,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+143,Chuva do Interior,Grupo Axé Brasil,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+144,Beira Escondido,Banda do Sul,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+145,Serra da Vida,Maria Fernanda,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+146,Paz do Interior,Os Românticos,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+147,Calor do Norte,Banda Fortaleza,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+148,Sol Distante,Voz do Povo,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+149,Chuva em Salvador,MC Favela,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+150,Tempo do Interior,Luana Souza,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+151,Lua da Vida,Thiaguinho Jr.,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+152,Amor de Sol,Ana Clara,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+153,Beijo do Interior,Tiago & Marcos,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+154,Calor Brilhante,Luana & as Manas,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+155,Paz do Sertão,Fé & Louvor,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+156,Beira Feliz,DJ Paulinho,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+157,Amor de Sol,Luana & as Manas,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+158,Vento da Madrugada,Pedro Alves,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+159,Deus do Norte,Ana Clara,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+160,Lua de Você,Banda Fortaleza,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+161,Calor Distante,Carlos Eduardo,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+162,Rio do Norte,Fernanda Melo,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+163,Deus Brilhante,Banda do Sul,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+164,Calor Apaixonado,Zé Paulinho,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+165,Calor no Baile,Bruna Vieira,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+166,Vida no Baile,Bruna Vieira,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+167,Beijo da Madrugada,Duo Sertanejo,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+168,Noite da Vida,Thiaguinho Jr.,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+169,Rio de Verão,Luana & as Manas,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+170,Noite Perdido,Banda Horizonte,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+171,Beira Perdido,Fé & Louvor,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+172,Noite Brilhante,Os Pagodeiros,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+173,Fé do Norte,Os Pagodeiros,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+174,Sol Brilhante,DJ Paulinho,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+175,Alma de Sol,Tiago & Marcos,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+176,Beira Feliz,João Martins,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+177,Serra Eterno,Tiago & Marcos,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+178,Fé Escondido,Samba de Raiz,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+179,Lua Feliz,Thiaguinho Jr.,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+180,Vento Feliz,João Martins,Funk,Funk carioca dançante com batida eletrônica e letras do cotidiano das favelas.
+181,Rio Eterno,Zé Paulinho,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+182,Calor Perdido,Fernanda Melo,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+183,Estrada Eterno,Grupo Axé Brasil,Rock Nacional,Rock nacional com guitarras distorcidas e letras de rebeldia e identidade.
+184,Tempo de Sol,Grupo Harmonia,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+185,Vento Perdido,Tiago & Marcos,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+186,Chuva Sem Freio,Duo Sertanejo,Rap Nacional,"Rap com crítica social, rimas urbanas e temática periférica."
+187,Rio do Sertão,Banda Fortaleza,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+188,Rio Eterno,Duo Sertanejo,Forró,"Forró pé-de-serra com sanfona, zabumba e triângulo celebrando o Nordeste."
+189,Mar em Salvador,Voz do Povo,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
+190,Fé Sem Freio,Trio Nordestino,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+191,Vida em Salvador,Bruna Vieira,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+192,Coração de Sol,Thiaguinho Jr.,Bossa Nova,"Bossa nova suave com violão, harmonia jazzística e poesia intimista."
+193,Estrada do Interior,Banda Horizonte,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+194,Amor Feliz,MC Braveza,Pagode,"Pagode animado com temática de amor, alegria e roda de amigos."
+195,Paz do Sertão,Banda Fortaleza,MPB,Canção de MPB com melodia suave e influência da música popular brasileira.
+196,Mar da Favela,Pedro Alves,Gospel,"Música gospel evangélica com louvor, adoração e mensagem de fé e esperança."
+197,Sonho de Você,Bruna Vieira,Axé,Axé baiano animado com percussão afro-brasileira e letras festivas.
+198,Serra de Você,Grupo Axé Brasil,Samba,Samba tradicional com percussão marcante e letras sobre a vida cotidiana.
+199,Serra na Chuva,MC Braveza,Sertanejo,Canção sertaneja romântica sobre amor e saudade no interior.
+200,Beira do Sertão,Grupo Harmonia,Trap,"Trap brasileiro com batidas pesadas, 808 e letras sobre ascensão e vida urbana."
