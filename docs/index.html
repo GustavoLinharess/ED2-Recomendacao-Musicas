@@ -7,29 +7,10 @@
   <meta name="description" content="Documentação do sistema de recomendação de músicas com grafos e similaridade de atributos.">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
-    :root {
-      --theme-color: #2563eb;
-      --cover-bg: linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%);
-    }
-    .app-name-link img { width: 0; }
-    section.cover.show {
-      background: var(--cover-bg) !important;
-      color: #fff;
-    }
-    section.cover .cover-main > p a {
-      border-radius: 8px;
-    }
-    section.cover.show .cover-main > p:last-child a {
-      background: #fff;
-      color: #1e3a8a;
-      border: none;
-    }
-    section.cover.show blockquote p,
-    section.cover.show .cover-main ul li {
-      color: #eef2ff;
-    }
+    :root { --theme-color: #2563eb; }
     .markdown-section table { display: table; width: 100%; }
     .markdown-section code { color: #1e3a8a; background: #eef2ff; }
+    .sidebar-nav > ul > li > a { font-weight: 600; }
   </style>
 </head>
 <body>
@@ -39,8 +20,6 @@
       name: '🎵 Recomendação de Músicas',
       repo: 'https://github.com/GustavoLinharess/ED2-Recomendacao-Musicas',
       loadSidebar: 'sidebar.md',
-      coverpage: 'cover.md',
-      onlyCover: false,
       subMaxLevel: 2,
       auto2top: true,
       search: {
