@@ -1,0 +1,61 @@
+id,titulo,artista,genero,ano,energia,dancabilidade,valencia,tempo_bpm
+1,Amor Distante,Banda do Sul,Funk,2006,0.72,0.87,0.56,123
+2,Coração em Salvador,Renata Lima,Samba,2013,0.52,0.63,0.7,131
+3,Lua que Ficou,Ana Clara,MPB,2001,0.43,0.31,0.38,105
+4,Serra na Chuva,Banda Horizonte,Bossa Nova,1975,0.14,0.33,0.49,71
+5,Vida que Ficou,Banda do Sul,MPB,1977,0.36,0.44,0.32,73
+6,Beijo do Norte,Renata Lima,Samba,2000,0.64,0.88,0.68,110
+7,Lua em Salvador,Bruna Vieira,Bossa Nova,1967,0.26,0.47,0.46,78
+8,Saudade Escondido,Renata Lima,MPB,1975,0.48,0.34,0.47,72
+9,Sonho que Ficou,Trio Nordestino,MPB,1986,0.46,0.45,0.5,99
+10,Noite no Baile,Fernanda Melo,MPB,2009,0.45,0.32,0.55,111
+11,Serra Distante,Tiago e Marcos,Rock Nacional,2002,0.61,0.49,0.37,114
+12,Coração do Sertão,Luana Souza,Rock Nacional,1988,0.84,0.47,0.67,163
+13,Chuva do Interior,Banda Fortaleza,MPB,2000,0.33,0.33,0.45,105
+14,Vento Eterno,Tiago e Marcos,Pagode,2014,0.77,0.66,0.62,104
+15,Estrada Feliz,Bruna Vieira,Samba,1983,0.58,0.6,0.7,118
+16,Amor Escondido,Samba de Raiz,Funk,2025,0.87,0.76,0.8,155
+17,Beira Distante,Banda Fortaleza,Forró,1976,0.64,0.7,0.57,113
+18,Chuva de Você,Trio Nordestino,Rock Nacional,2018,0.62,0.35,0.36,112
+19,Tempo de Sol,Grupo Harmonia,Funk,2011,0.85,0.78,0.51,142
+20,Beijo de Você,Lucas e Rafael,Funk,2020,0.95,0.85,0.62,125
+21,Saudade de Verão,Cardume,Bossa Nova,1966,0.24,0.42,0.38,73
+22,Amor do Norte,João Martins,Funk,2021,0.77,0.89,0.44,136
+23,Chuva Eterno,Duo Sertanejo,Funk,2022,0.84,0.86,0.69,159
+24,Lua Distante,Cardume,Samba,1989,0.56,0.75,0.81,96
+25,Beijo no Baile,Maria Fernanda,Pagode,2012,0.63,0.88,0.92,113
+26,Lua de Você,Duo Sertanejo,MPB,1995,0.31,0.35,0.52,109
+27,Beijo Eterno,Banda do Sul,Sertanejo,1990,0.65,0.49,0.54,125
+28,Beijo Apaixonado,Renata Lima,Samba,2002,0.53,0.88,0.8,124
+29,Noite Apaixonado,Pedro Alves,Forró,1978,0.51,0.76,0.66,141
+30,Tempo de Ontem,Fernanda Melo,Bossa Nova,1979,0.38,0.29,0.39,61
+31,Alma de Você,Os Românticos,Sertanejo,1993,0.53,0.71,0.69,93
+32,Mar do Sertão,Luana Souza,Sertanejo,2017,0.47,0.63,0.49,106
+33,Coração Eterno,Carlos Eduardo,Bossa Nova,1979,0.28,0.48,0.35,92
+34,Sonho Perdido,Os Românticos,Bossa Nova,1974,0.11,0.36,0.26,60
+35,Chuva Perdido,Fernanda Melo,Bossa Nova,1977,0.32,0.39,0.31,93
+36,Saudade do Norte,Ana Clara,Rock Nacional,1995,0.66,0.36,0.34,157
+37,Noite do Interior,Trio Nordestino,Sertanejo,2024,0.69,0.63,0.47,97
+38,Paz do Norte,Fernanda Melo,Rock Nacional,2012,0.9,0.56,0.65,133
+39,Calor Perdido,Renata Lima,Samba,1975,0.62,0.69,0.78,122
+40,Sol da Vida,Lucas e Rafael,MPB,2022,0.48,0.53,0.53,93
+41,Mar Perdido,Carlos Eduardo,Bossa Nova,1965,0.32,0.27,0.51,70
+42,Chuva na Chuva,Os Românticos,Samba,2011,0.6,0.66,0.66,118
+43,Rio do Norte,Carlos Eduardo,Sertanejo,2013,0.61,0.57,0.58,98
+44,Saudade da Madrugada,Lucas e Rafael,MPB,1970,0.33,0.31,0.57,87
+45,Vento no Baile,Banda Fortaleza,Bossa Nova,1962,0.26,0.38,0.37,80
+46,Mar Sem Freio,Lua Cheia,MPB,1976,0.38,0.32,0.63,110
+47,Mar em Salvador,Samba de Raiz,MPB,2019,0.32,0.37,0.34,70
+48,Sonho na Chuva,MC Favela,Funk,2024,0.73,0.87,0.51,127
+49,Mar Sem Freio,Pedro Alves,Bossa Nova,1964,0.38,0.41,0.39,73
+50,Calor Escondido,Tiago e Marcos,Pagode,2001,0.58,0.85,0.92,92
+51,Estrada Escondido,Zé Paulinho,Sertanejo,1997,0.55,0.52,0.56,122
+52,Madrugada Feliz,Zé Paulinho,Forró,2023,0.77,0.87,0.61,113
+53,Rio do Sertão,Lua Cheia,Samba,1977,0.62,0.7,0.57,103
+54,Noite no Baile,Renata Lima,Sertanejo,1995,0.42,0.65,0.53,112
+55,Tempo da Madrugada,Lua Cheia,Pagode,2008,0.51,0.67,0.65,90
+56,Flor de Verão,Zé Paulinho,Pagode,2010,0.57,0.89,0.66,112
+57,Estrada de Verão,Banda Fortaleza,Bossa Nova,1960,0.24,0.38,0.27,92
+58,Noite no Baile,Grupo Harmonia,Sertanejo,1994,0.52,0.46,0.41,99
+59,Noite que Ficou,Os Românticos,Samba,1979,0.7,0.81,0.86,119
+60,Beijo Perdido,Luana Souza,Funk,2024,0.86,0.76,0.78,152

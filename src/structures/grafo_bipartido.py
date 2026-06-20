@@ -1,43 +1,32 @@
-from typing import Optional
 from src.models.usuario import Usuario
 from src.models.musica import Musica
 
 
 class GrafoBipartido:
-    """
-    Grafo bipartido entre usuários e músicas.
-
-    Um lado contém nós do tipo Usuario, o outro do tipo Musica.
-    As arestas representam avaliações de um usuário para uma música.
-    A lista de adjacência é indexada pelo id do usuário.
-    """
 
     def __init__(self) -> None:
-        # id_usuario -> Usuario
         self._usuarios: dict[int, Usuario] = {}
-        # id_musica -> Musica
         self._musicas: dict[int, Musica] = {}
-        # id_usuario -> lista de (id_musica, nota)
-        self._avaliacoes: dict[int, list[tuple[int, float]]] = {}
+        # lista de adjacência: usuario_id -> [(musica_id, tipo, nota)]
+        self._adj: dict[int, list[tuple[int, str, float | None]]] = {}
 
     def adicionar_usuario(self, usuario: Usuario) -> None:
-        """Adiciona um nó de usuário ao grafo."""
-        pass
+        self._usuarios[usuario.id] = usuario
+        if usuario.id not in self._adj:
+            self._adj[usuario.id] = []
 
     def adicionar_musica(self, musica: Musica) -> None:
-        """Adiciona um nó de música ao grafo."""
-        pass
+        self._musicas[musica.id] = musica
 
-    def adicionar_avaliacao(
-        self, id_usuario: int, id_musica: int, nota: float
-    ) -> None:
-        """Cria uma aresta entre um usuário e uma música com a nota dada."""
-        pass
+    def adicionar_interacao(self, id_usuario: int, id_musica: int, tipo: str, nota: float | None) -> None:
+        if id_usuario not in self._adj:
+            self._adj[id_usuario] = []
+        self._adj[id_usuario].append((id_musica, tipo, nota))
 
-    def obter_vizinhos(self, id_usuario: int) -> list[tuple[int, float]]:
-        """Retorna as músicas avaliadas pelo usuário como lista de (id_musica, nota)."""
-        pass
+    def obter_vizinhos(self, id_usuario: int) -> list[tuple[int, str, float | None]]:
+        return self._adj.get(id_usuario, [])
 
     def exibir_grafo(self) -> None:
-        """Imprime a lista de adjacência do grafo."""
-        pass
+        for uid, vizinhos in self._adj.items():
+            nome = self._usuarios[uid].nome if uid in self._usuarios else uid
+            print(f"{nome} -> {vizinhos}")
