@@ -45,11 +45,11 @@ Gêneros usados: Sertanejo, MPB, Bossa Nova, Samba, Pagode, Funk, Forró e Rock 
 | usuario_id | int | origem da aresta |
 | musica_id | int | destino da aresta |
 | tipo | string | avaliacao, interesse ou compartilhamento |
-| nota | int | 1–5, só quando tipo = avaliacao |
+| nota | int | 0–10, só quando tipo = avaliacao |
 
 A nota só existe quando o tipo é `avaliacao`. Para `interesse` e `compartilhamento`
 o peso da aresta é derivado do tipo (sugestão: interesse = 0,6 e compartilhamento = 0,8
-numa escala onde nota 5 = 1,0). O peso não é armazenado, é calculado a partir de tipo + nota.
+numa escala onde nota 10 = 1,0). O peso não é armazenado, é calculado a partir de tipo + nota.
 
 ### Coerência garantida
 - **Atributos batem com o gênero.** Cada gênero tem uma faixa plausível de energia,
@@ -62,7 +62,7 @@ numa escala onde nota 5 = 1,0). O peso não é armazenado, é calculado a partir
 
 ### Validação
 Os dados passam por checagens automáticas antes de serem salvos: ids sem duplicata,
-toda interação aponta para usuário e música existentes, nota dentro de 1–5 e nenhuma
+toda interação aponta para usuário e música existentes, nota dentro de 0–10 e nenhuma
 música com menos de 3 interações.
 
 ## Uso de LLM na geração (critério 6)
