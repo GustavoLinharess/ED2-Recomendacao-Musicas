@@ -7,13 +7,21 @@ class Musica:
         titulo: str,
         artista: str,
         genero: str,
-        descricao: str = "",
+        ano: int,
+        energia: float,
+        dancabilidade: float,
+        valencia: float,
+        tempo_bpm: int,
     ) -> None:
-        self._id: int = id
-        self._titulo: str = titulo
-        self._artista: str = artista
-        self._genero: str = genero
-        self._descricao: str = descricao
+        self._id = id
+        self._titulo = titulo
+        self._artista = artista
+        self._genero = genero
+        self._ano = ano
+        self._energia = energia
+        self._dancabilidade = dancabilidade
+        self._valencia = valencia
+        self._tempo_bpm = tempo_bpm
 
     @property
     def id(self) -> int:
@@ -23,37 +31,33 @@ class Musica:
     def titulo(self) -> str:
         return self._titulo
 
-    @titulo.setter
-    def titulo(self, valor: str) -> None:
-        if not valor.strip():
-            raise ValueError("Título não pode ser vazio.")
-        self._titulo = valor
-
     @property
     def artista(self) -> str:
         return self._artista
-
-    @artista.setter
-    def artista(self, valor: str) -> None:
-        if not valor.strip():
-            raise ValueError("Artista não pode ser vazio.")
-        self._artista = valor
 
     @property
     def genero(self) -> str:
         return self._genero
 
-    @genero.setter
-    def genero(self, valor: str) -> None:
-        self._genero = valor
+    @property
+    def ano(self) -> int:
+        return self._ano
 
     @property
-    def descricao(self) -> str:
-        return self._descricao
+    def energia(self) -> float:
+        return self._energia
 
-    @descricao.setter
-    def descricao(self, valor: str) -> None:
-        self._descricao = valor
+    @property
+    def dancabilidade(self) -> float:
+        return self._dancabilidade
+
+    @property
+    def valencia(self) -> float:
+        return self._valencia
+
+    @property
+    def tempo_bpm(self) -> int:
+        return self._tempo_bpm
 
     def __str__(self) -> str:
         return (
