@@ -1,7 +1,0 @@
-- [Início](README.md)
-- [Definição do problema](problema.md)
-- [Base de dados](base-de-dados.md)
-- [Geração via LLM](geracao-llm.md)
-- [Modelagem do grafo](modelagem.md)
-- [Próximas etapas](roadmap.md)
-- [Equipe](equipe.md)
