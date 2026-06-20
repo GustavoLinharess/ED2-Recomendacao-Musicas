@@ -1,187 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Recomendação de Músicas — Base de Dados</title>
+  <meta charset="UTF-8">
+  <title>Recomendação de Músicas — ED2 / UnB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documentação do sistema de recomendação de músicas com grafos e similaridade de atributos.">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     :root {
-      --azul: #2563eb;
-      --texto: #1f2933;
-      --suave: #52606d;
-      --linha: #e4e7eb;
-      --fundo: #f7f8fa;
+      --theme-color: #2563eb;
+      --cover-bg: linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%);
     }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--texto);
-      background: var(--fundo);
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    .app-name-link img { width: 0; }
+    section.cover.show {
+      background: var(--cover-bg) !important;
       color: #fff;
-      padding: 56px 24px;
-      text-align: center;
     }
-    header h1 { margin: 0 0 8px; font-size: 2rem; }
-    header p { margin: 0; opacity: .9; }
-    main {
-      max-width: 880px;
-      margin: -28px auto 64px;
-      padding: 0 20px;
+    section.cover .cover-main > p a {
+      border-radius: 8px;
     }
-    section {
+    section.cover.show .cover-main > p:last-child a {
       background: #fff;
-      border: 1px solid var(--linha);
-      border-radius: 12px;
-      padding: 28px 32px;
-      margin-bottom: 24px;
-      box-shadow: 0 1px 3px rgba(0,0,0,.04);
-    }
-    h2 {
-      margin-top: 0;
-      font-size: 1.3rem;
-      border-bottom: 2px solid var(--azul);
-      display: inline-block;
-      padding-bottom: 4px;
-    }
-    h3 { margin-bottom: 6px; color: var(--suave); }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 12px 0 20px;
-      font-size: .92rem;
-    }
-    th, td {
-      text-align: left;
-      padding: 8px 12px;
-      border-bottom: 1px solid var(--linha);
-    }
-    th { background: var(--fundo); }
-    code {
-      background: #eef2ff;
       color: #1e3a8a;
-      padding: 1px 6px;
-      border-radius: 5px;
-      font-size: .88rem;
+      border: none;
     }
-    .tags span {
-      display: inline-block;
-      background: #eef2ff;
-      color: #1e3a8a;
-      border-radius: 20px;
-      padding: 3px 12px;
-      margin: 3px 4px 3px 0;
-      font-size: .85rem;
+    section.cover.show blockquote p,
+    section.cover.show .cover-main ul li {
+      color: #eef2ff;
     }
-    footer {
-      text-align: center;
-      color: var(--suave);
-      font-size: .85rem;
-      padding-bottom: 40px;
-    }
+    .markdown-section table { display: table; width: 100%; }
+    .markdown-section code { color: #1e3a8a; background: #eef2ff; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>🎵 Sistema de Recomendação de Músicas</h1>
-    <p>Estruturas de Dados II — Engenharia de Software — UnB</p>
-  </header>
-
-  <main>
-    <section>
-      <h2>O problema</h2>
-      <p>
-        O objetivo é recomendar músicas para usuários a partir de duas fontes: o histórico
-        de interações de cada usuário (avaliações, interesse e compartilhamento) e a
-        similaridade entre músicas com base em seus atributos (gênero, energia,
-        dançabilidade, valência, BPM e ano).
-      </p>
-      <p>
-        A recomendação é modelada sobre um grafo bipartido usuário–música. A partir dele
-        derivamos a projeção música–música (músicas conectadas quando avaliadas pelos mesmos
-        usuários) e usamos os atributos numéricos para medir proximidade entre faixas.
-      </p>
-    </section>
-
-    <section>
-      <h2>A base de dados</h2>
-      <p>Base fictícia, pensada para ser coerente. Três coleções com schema congelado.</p>
-
-      <h3>musicas.csv — 60 músicas</h3>
-      <table>
-        <tr><th>campo</th><th>tipo</th><th>observação</th></tr>
-        <tr><td><code>id</code></td><td>int</td><td>único</td></tr>
-        <tr><td><code>titulo</code></td><td>string</td><td>exibição</td></tr>
-        <tr><td><code>artista</code></td><td>string</td><td>exibição (não é vértice)</td></tr>
-        <tr><td><code>genero</code></td><td>string</td><td>um de 8 gêneros</td></tr>
-        <tr><td><code>ano</code></td><td>int</td><td>1958–2025</td></tr>
-        <tr><td><code>energia</code></td><td>float</td><td>0–1</td></tr>
-        <tr><td><code>dancabilidade</code></td><td>float</td><td>0–1</td></tr>
-        <tr><td><code>valencia</code></td><td>float</td><td>0–1 (triste → feliz)</td></tr>
-        <tr><td><code>tempo_bpm</code></td><td>int</td><td>60–200 (normalizar antes do cosseno)</td></tr>
-      </table>
-      <div class="tags">
-        <span>Sertanejo</span><span>MPB</span><span>Bossa Nova</span><span>Samba</span>
-        <span>Pagode</span><span>Funk</span><span>Forró</span><span>Rock Nacional</span>
-      </div>
-
-      <h3>usuarios.csv — 25 usuários</h3>
-      <table>
-        <tr><th>campo</th><th>tipo</th><th>observação</th></tr>
-        <tr><td><code>id</code></td><td>int</td><td>único</td></tr>
-        <tr><td><code>nome</code></td><td>string</td><td>exibição</td></tr>
-        <tr><td><code>generos_preferidos</code></td><td>lista</td><td>separada por <code>|</code>, usada no cold-start</td></tr>
-      </table>
-
-      <h3>interacoes.csv — ~420 interações</h3>
-      <table>
-        <tr><th>campo</th><th>tipo</th><th>observação</th></tr>
-        <tr><td><code>usuario_id</code></td><td>int</td><td>origem da aresta</td></tr>
-        <tr><td><code>musica_id</code></td><td>int</td><td>destino da aresta</td></tr>
-        <tr><td><code>tipo</code></td><td>string</td><td>avaliacao, interesse ou compartilhamento</td></tr>
-        <tr><td><code>nota</code></td><td>int</td><td>0–10, só quando tipo = avaliacao</td></tr>
-      </table>
-    </section>
-
-    <section>
-      <h2>Coerência garantida</h2>
-      <ul>
-        <li><strong>Atributos batem com o gênero.</strong> Cada gênero tem faixa plausível de
-          energia, dançabilidade, valência e BPM. Bossa Nova fica calma e lenta; Funk fica
-          agitado e rápido. Não existe balada com energia 0,9.</li>
-        <li><strong>Gosto reflete nas interações.</strong> Cerca de 80% das interações de cada
-          usuário caem nos seus gêneros preferidos, e as notas dentro do gosto são mais altas.</li>
-        <li><strong>Densidade suficiente.</strong> Toda música tem pelo menos 3 interações
-          (média ~7), para a projeção música–música ter coocorrência e não sair vazia.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Uso de LLM na geração</h2>
-      <p>Os dados foram gerados com apoio de um LLM (Claude, modelo Opus 4.8).</p>
-      <h3>Feito com o LLM</h3>
-      <ul>
-        <li>definição do schema das três coleções e da convenção de pesos por tipo de interação;</li>
-        <li>faixas de atributos por gênero que mantêm cada gênero plausível;</li>
-        <li>listas-semente de gêneros, artistas fictícios e fragmentos de títulos;</li>
-        <li>a rotina que materializa as coleções aplicando as regras e a validação final.</li>
-      </ul>
-      <h3>Ajustado à mão</h3>
-      <ul>
-        <li>revisão dos intervalos por gênero para evitar combinações estranhas;</li>
-        <li>ajuste das quantidades e da concentração das interações para garantir coocorrência;</li>
-        <li>mudança da escala da nota para 0–10 e conferência final dos CSVs.</li>
-      </ul>
-      <p>A semente aleatória é fixa, então a base é reproduzível.</p>
-    </section>
-
-    <footer>
-      Esdras &middot; Gustavo &middot; João Vitor &middot; Miguel &middot; Pedro
-    </footer>
-  </main>
+  <div id="app">carregando…</div>
+  <script>
+    window.$docsify = {
+      name: '🎵 Recomendação de Músicas',
+      repo: 'https://github.com/GustavoLinharess/ED2-Recomendacao-Musicas',
+      loadSidebar: true,
+      coverpage: true,
+      onlyCover: false,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        placeholder: 'Buscar…',
+        noData: 'Nenhum resultado.',
+        depth: 3,
+      },
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
 </body>
 </html>
