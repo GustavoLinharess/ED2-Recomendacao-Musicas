@@ -35,8 +35,30 @@ Uma tabela hash (dicionário) dá acesso rápido a usuário e música por id.
 ## Projeção música–música
 
 A partir do grafo bipartido derivamos um grafo só de músicas: duas músicas ficam conectadas
-quando foram avaliadas pelos mesmos usuários, e o peso da conexão é a quantidade de usuários
-em comum. Essa projeção é a base da recomendação colaborativa.
+quando foram avaliadas por usuários em comum. Essa projeção é a base da recomendação
+colaborativa.
+
+O **peso** da aresta é a **similaridade de cosseno** entre os vetores de nota das duas
+músicas (cada música é um vetor indexado por usuário, com o peso da interação como valor):
+
+```
+sim(a, b) = (a · b) / (||a|| × ||b||)
+```
+
+Escolhemos cosseno em vez da simples contagem de usuários em comum porque a contagem premia
+músicas populares e ignora se as notas concordam; o cosseno mede concordância de gosto
+normalizada, sem inflar por popularidade. O produto escalar só tem termos nos usuários em
+comum; as normas usam todos os usuários de cada música.
+
+**Filtragem mínima na origem:** não criamos aresta para coocorrência de um único usuário
+(ruído). O threshold de verdade (podar arestas fracas) fica a cargo da etapa de filtragem.
+
+**Formato congelado** (consumido pelas etapas seguintes — travessia e recomendação):
+
+```
+projecao.como_lista_adjacencia()  ->  { musica_id: [(musica_id_vizinha, peso), ...] }
+projecao.vizinhos(musica_id)      ->  [(musica_id_vizinha, peso), ...]
+```
 
 ## Similaridade por atributos
 
