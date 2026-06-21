@@ -3,18 +3,12 @@ Similaridade por atributos (segunda medida) — critério de similaridade
 baseado em conteúdo das músicas (gênero + energia/dancabilidade/valencia/bpm),
 calculada via cosseno entre vetores.
 
-Não usa a biblioteca math: raiz_quadrada() é implementada manualmente
-(Método de Newton).
 """
 
 from src.models.musica import Musica
 
 
 def raiz_quadrada(x: float, precisao: float = 1e-10) -> float:
-    """
-    Calcula raiz quadrada usando o Método de Newton (Newton-Raphson),
-    sem depender da biblioteca math.
-    """
     if x < 0:
         raise ValueError("Não existe raiz quadrada real de número negativo")
     if x == 0:
@@ -29,12 +23,7 @@ def raiz_quadrada(x: float, precisao: float = 1e-10) -> float:
 
 
 def normalizar_min_max(valores: dict[int, float]) -> dict[int, float]:
-    """
-    valores: {musica_id: valor_bruto}
-    Normaliza para [0, 1]. Necessário para 'tempo_bpm', cuja escala
-    (ex.: 60-180) é muito maior que energia/dancabilidade/valencia
-    (já vêm em 0-1), e dominaria o cosseno se não normalizado.
-    """
+   
     vmin = min(valores.values())
     vmax = max(valores.values())
     if vmax == vmin:

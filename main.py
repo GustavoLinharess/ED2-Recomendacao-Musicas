@@ -17,7 +17,7 @@ def main() -> None:
     vizinhos = grafo.obter_vizinhos(4)
     print(f"interações do usuário 4: {vizinhos}")
 
-    # ---- índices em HashTable própria (Miguel) ----
+    # ---- índices em HashTable própria  ----
     indexador = IndexadorMusicas()
 
     musicas = list(grafo._musicas.values())
@@ -31,7 +31,7 @@ def main() -> None:
     print(f"Usuários da música 1 (via HashTable): {indexador.usuarios_da_musica(1)}")
     print(f"Vetor de atributos da música 1: {indexador.atributos_da_musica(1)}")
 
-    # ---- similaridade por atributos (Miguel) ----
+    # ---- similaridade por atributos cat docs/sidebar.md----
     arestas_atributos = construir_matriz_similaridade(vetores, limiar=0.5)
     print(f"\nTotal de arestas por similaridade de atributos (limiar 0.5): {len(arestas_atributos)}")
 
