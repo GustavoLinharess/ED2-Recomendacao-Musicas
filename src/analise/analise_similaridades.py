@@ -1,19 +1,5 @@
 """
 Análise de Similaridades e Agrupamentos (critério 5).
-
-Compara a coocorrência (quem ouviu o quê em comum, calculada a partir do
-GrafoBipartido do Pedro) com a similaridade por atributos (cosseno, do
-Miguel), e imprime um resumo com:
-  - distribuição dos pesos de cada medida
-  - correlação entre as duas medidas
-  - pares de concordância (alta coocorrência E alta similaridade)
-  - pares de divergência (alta coocorrência, baixa similaridade)
-  - pares de cold-start (sem coocorrência, alta similaridade)
-
-Não usa a biblioteca math: a raiz quadrada usada na correlação de Pearson
-vem de raiz_quadrada(), importada de similaridade_atributos.py.
-
-Rodar com:  python -m src.analise.analise_similaridades
 """
 
 from collections import defaultdict
@@ -27,11 +13,6 @@ from src.structures.similaridade_atributos import (
 
 
 def calcular_coocorrencia(grafo) -> dict[tuple[int, int], int]:
-    """
-    A partir do grafo bipartido usuario-musica, conta quantos usuários
-    cada par de músicas tem em comum. Retorna {(musica_a, musica_b): contagem}
-    com a tupla sempre ordenada (a < b) pra evitar pares duplicados.
-    """
     usuario_musicas = defaultdict(set)
     for usuario_id, interacoes in grafo._adj.items():
         for musica_id, _tipo, _nota in interacoes:
@@ -48,12 +29,6 @@ def calcular_coocorrencia(grafo) -> dict[tuple[int, int], int]:
 
 
 def correlacao_pearson(xs: list[float], ys: list[float]) -> float:
-    """
-    Correlação de Pearson entre duas listas de mesmo tamanho.
-    Mede o quanto duas medidas (coocorrência e similaridade de atributos)
-    crescem/decrescem juntas. Varia de -1 (opostas) a 1 (idênticas),
-    passando por 0 (sem relação linear).
-    """
     n = len(xs)
     media_x, media_y = sum(xs) / n, sum(ys) / n
     cov = sum((xs[i] - media_x) * (ys[i] - media_y) for i in range(n))
