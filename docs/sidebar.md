@@ -3,5 +3,6 @@
 - [Base de dados](base-de-dados.md)
 - [Geração via LLM](geracao-llm.md)
 - [Modelagem do grafo](modelagem.md)
+- [Estruturas e Similaridade](estruturas-similaridade.md)
 - [Próximas etapas](roadmap.md)
 - [Equipe](equipe.md)
