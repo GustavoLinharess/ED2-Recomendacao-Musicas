@@ -5,4 +5,5 @@
 - [Modelagem do grafo](modelagem.md)
 - [Estruturas e Similaridade](estruturas-similaridade.md)
 - [Próximas etapas](roadmap.md)
+- [Análises dos Resultados](analise-resultados.md)
 - [Equipe](equipe.md)
