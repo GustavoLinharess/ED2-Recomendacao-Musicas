@@ -4,6 +4,6 @@
 - [Geração via LLM](geracao-llm.md)
 - [Modelagem do grafo](modelagem.md)
 - [Estruturas e Similaridade](estruturas-similaridade.md)
-- [Próximas etapas](roadmap.md)
-- [Análises dos Resultados](analise-resultados.md)
+- [Motor de recomendação](recomendacao.md)
+- [Análise dos resultados](analise-resultados.md)
 - [Equipe](equipe.md)
